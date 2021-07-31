@@ -3,6 +3,9 @@
 # Change by Lake.hu@outlook.com
 # reference to Keil->help->µVision User's Guide->Appendix->B. File Types
 
+# .vscode忽略
+.vscode/
+
 # 注意：忽略大小写
 
 # Project Files
