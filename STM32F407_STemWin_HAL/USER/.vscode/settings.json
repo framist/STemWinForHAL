@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "ili93xx.h": "c",
-        "delay.h": "c",
-        "lcd.h": "c",
-        "gt9147.h": "c"
-    }
-}
