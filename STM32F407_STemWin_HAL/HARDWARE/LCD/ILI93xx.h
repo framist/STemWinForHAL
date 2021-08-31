@@ -1,5 +1,5 @@
-#ifndef __LCD_H
-#define __LCD_H		
+#ifndef __ILI93XX_H
+#define __ILI93XX_H		
 #include "sys.h"	 
 #include "stdlib.h" 
 //////////////////////////////////////////////////////////////////////////////////	 

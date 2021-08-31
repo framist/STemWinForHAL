@@ -3,9 +3,9 @@
 #include "malloc.h"
 
 
-#define USE_EXRAM  1//使用外部RAM 
+#define USE_EXRAM  0//使用~~外部RAM~~ 使用内部RAM，速度更快。另外正点原子外部SRAM出故障概率挺大（也可能是不是
 //设置EMWIN内存大小
-#define GUI_NUMBYTES (30*1024) //原本是(500*1024)
+#define GUI_NUMBYTES (64*1024) //原本是(500*1024) 最大参考"malloc.h"
 #define GUI_BLOCKSIZE 0X80  //块大小
 
 

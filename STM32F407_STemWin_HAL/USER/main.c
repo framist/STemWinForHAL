@@ -15,7 +15,7 @@
 F4_HAL_emwin
 移植组合：
 正点原子式STM32项目结构 + 正点原子库 + HAL库 + STemWin
-试验成功支持：STM32F103ZGT6
+试验成功支持：STM32F407ZGT6
 ************************************************/
 
 
@@ -44,11 +44,10 @@ int main(void)
 	WM_SetCreateFlags(WM_CF_MEMDEV);//为重绘操作自动使用存储设备
 	GUI_Init();
 
-	GUI_SetBkColor(GUI_BLUE);
-	GUI_Clear();
-	GUI_DispStringAt("hello",0,0);
-	
-	HAL_Delay(5000);
+//	GUI_SetBkColor(GUI_BLUE);
+//	GUI_Clear();
+//	GUI_DispStringAt("hello, world\n      -- framist",0,0);
+//	HAL_Delay(3000);
 
 	GUIDEMO_Main();
     while(1)
