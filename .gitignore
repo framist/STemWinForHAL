@@ -6,6 +6,9 @@
 # .vscode忽略
 .vscode/
 
+# keilkill.bat允许
+!keilkilll.bat
+
 # 注意：忽略大小写
 
 # Project Files
@@ -49,7 +52,7 @@
 *.ELF
 *.HEX
 *.H86
-*.LIB
+# *.LIB
 *.OBJ
 *.O
 *.SBR
